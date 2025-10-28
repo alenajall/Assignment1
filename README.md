@@ -1,43 +1,38 @@
 Mini Library Management System
 
-This repository contains the implementation of a Mini Library Management System in Python, fulfilling the requirements of Assignment 1 for Object-Oriented Programming 1.
+This repository presents the implementation of a Mini Library Management System developed in Python as part of Assignment 1 for the Object-Oriented Programming 1 course. The system demonstrates fundamental object-oriented design principles through the use of classes, data structures, and modular programming techniques.
 
- Files
-- library.py: Core implementation with data structures and functions.
-- unit_tests.py: Unit tests using `assert` to verify functionality.
-- demo.py: Demo script showcasing system usage (add, borrow, return, delete).
-- UML.png: Hand-drawn UML diagram showing data structures and functions.
-- DesignRationale.txt: Document explaining the use of dictionaries, lists, and tuples.
-- README.md: This file with instructions.
+Repository Contents
+library.py – Contains the core implementation of the system, including class definitions, data structures, and associated methods.
 
- Instructions to Run the Code
+unit_tests.py – Provides unit tests utilizing assert statements to validate the correctness and reliability of system functions.
 
- Prerequisites
-- Python 3.x installed on your system.
+demo.py – A demonstration script that illustrates the main features of the system, such as adding, borrowing, returning, and deleting books.
 
- Running the Demo
-1. Ensure `library.py` is in the same directory as `demo.py`and unit_test.py
-2. Open a terminal in the project directory.
-3. Run the demo script using:# Mini Library Management System
+UML.png – A hand-drawn UML diagram depicting the relationships among the system’s components and their respective attributes and methods.
 
-This repository contains the implementation of a Mini Library Management System in Python, fulfilling the requirements of Assignment 1 for Object-Oriented Programming 1.
+DesignRationale.txt – A document providing a detailed explanation of design decisions, with a particular focus on the choice and application of data structures (dictionaries, lists, and tuples).
 
- Files
-- `library.py`: Core implementation with data structures and functions.
-- `unit_tests.py`: Unit tests using `assert` to verify functionality.
-- `demo.py`: Demo script showcasing system usage (add, borrow, return, delete).
-- `UML.png`: Hand-drawn UML diagram showing data structures and functions.
-- `DesignRationale.txt`: Document explaining the use of dictionaries, lists, and tuples.
-- `README.md`: This file with instructions.
+README.md – The present document, outlining the system’s structure, setup, and execution guidelines.
 
- Instructions to Run the Code
 
- Prerequisites
-- Python 3.x installed on your system.
+Execution Instructions
+Prerequisites
 
-Running the Demo
-1. Ensure `library.py` is in the same directory as `demo.py`.
-2. Open a terminal in the project directory.
-3. Run the demo script using: demo.py to see the system in action
-4. To run the unit test run: unit_test.py
-  
+Python 3.x must be installed on the system prior to execution.
+
+Running the Demonstration
+
+Ensure that library.py, demo.py, and unit_tests.py are located within the same directory.
+
+Open a terminal or command prompt and navigate to the project directory.
+
+To execute the demonstration and observe the system’s functionality, run the following command:
+
+python demo.py
+
+
+To execute the unit tests and verify the correctness of system operations, use:
+
+python unit_tests.py
+
